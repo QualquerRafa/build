@@ -1,0 +1,30 @@
+/* The font basis for the whole page. Change it locally when needed */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background: linear-gradient(90deg, #c20a0a, #1609c0);
+}
+
+table, th, td {
+    border:2px solid whitesmoke;
+}
+
+a:link {
+    color : blue;
+    font-weight: bold;
+}
+a:hover {
+    color : red;
+    font-weight: bold;
+}
+a:visited {
+    color : maroon;
+    font-weight: bold;
+}
+
+sup {
+    font-size: 11px;
+}
